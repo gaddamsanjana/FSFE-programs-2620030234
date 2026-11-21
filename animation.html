@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            .box{
+                width: 120px;
+                height: 120px;
+                background-color:lightgreen;
+                /*ANIMATION PROPERTIES*/
+                animation-name: movebox;
+                animation-duration: 5s;
+                animation-iteration-count: 10;
+            }
+            @keyframes movebox {
+                from{
+                    transform: translatex(200px);
+                }
+                to{
+                    transform: translatex(800px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>

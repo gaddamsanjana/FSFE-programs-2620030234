@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>
+            Employee Registration Form
+        </Title>
+      <body align="center">
+        <body style="background-color:lightgoldenrodyellow;"></body>
+        <h1> Employee Registration Form</h1>
+        <form>
+       Employee Name :  <input type ="text" name = "g1" placeholder="Enter your Name"  
+       autofocus><br><br>
+       Password : <input type ="Password" name = "g2" placeholder="Enter your Password"
+       required><br><br>
+       Email :  <input type ="email" name = "g3" placeholder="abc@klh.edu.in"
+       required><br><br>
+       Mobile Number : <input type = "tel" name = "g4" placeholder="1234567890" pattern="[0-9]
+      {10}"required><br><br><br>
+      Age : <input type ="Age" name = "g5" placeholder="Enter your age"  min="0" required><br><br>
+      Date of Birth : <input type = "date" name = "g6" required><br><br>
+      Preferred Interview Time : <input type ="time" name = "g7" required><br><br>
+      Gender : <input type="radio" name = "g8" required>Male
+               <input type="radio" name = "g8" required>Female<br><br>
+     Skills : <input type="checkbox" name="g9">HTML
+              <input type="checkbox" name="g9">CSS
+              <input type="checkbox" name="g9">Java Script<br><br>
+    Select Department : <select name="g10" required>
+                <option value="1">Select Department</option>
+                <option>HR</option>
+                <option>IT</option>
+                <option>Finance</option>
+            </select><br><br>
+            Upload Resume : <input type="file" name="g11" accept=".pdf,.doc,.docx" ><br><br>
+            Address : <textarea name="g12" required rows="3" cols="30" placeholder="Enter your address"></textarea><br><br>
+            <label>
+            Work Experience :</label>
+             <input type="range" id="experience"
+           min="0" max="100" value="50"
+           oninput="document.getElementById('percentage').innerHTML=this.value+'%'">
+
+          <span id="percentage"></span><br><br>
+            LinkedIn Profile : <input type="url" name="g14" placeholder="Enter LinkedIn URL" required><br><br>
+            <button type="submit"> Register </button>
+            <button type="reset"> reset </button>
+
+        </form>
+
+    </body>
+
+</html>   
+                   
+
+
+
+
+ 
+        </form>
+      </body>  
+    </head>
+</html>
